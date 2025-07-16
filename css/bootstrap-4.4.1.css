@@ -79,8 +79,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
-  margin-top: 0;
-  margin-bottom: 1rem;
+	margin-top: 0;
+	margin-bottom: 1rem;
+	font-size: 16px;
+	text-align: left;
 }
 
 abbr[title],
@@ -129,7 +131,8 @@ blockquote {
 
 b,
 strong {
-  font-weight: bolder;
+	font-weight: bolder;
+	text-align: left;
 }
 
 small {
@@ -384,7 +387,8 @@ h4, .h4 {
 }
 
 h5, .h5 {
-  font-size: 1.25rem;
+	font-size: 1.25rem;
+	text-align: center;
 }
 
 h6, .h6 {
@@ -560,6 +564,11 @@ pre code {
 	height: 500px;
 	text-align: center;
 }
+.container .img-fluid {
+	clear: left;
+	background-image: url(../image/arh1.png);
+}
+
 
 
 
@@ -9979,7 +9988,8 @@ button.bg-dark:focus {
 }
 
 .text-center {
-  text-align: center !important;
+	text-align: right !important;
+	font-family: "微軟正黑體", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 @media (min-width: 576px) {
