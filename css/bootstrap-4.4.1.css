@@ -386,7 +386,7 @@ h3, .h3 {
 
 h4, .h4 {
 	font-size: 1.5rem;
-	text-align: left;
+	text-align: center;
 }
 
 h5, .h5 {
@@ -564,10 +564,14 @@ pre code {
 .container .container-fluid {
 	overflow-x: scroll;
 	overflow-y: scroll;
-	width: 100%;
+	width: 1120px;
 	height: 1200px;
 	text-align: center;
 }
+.container #carouselExampleIndicators1 .carousel-inner {
+	width: 1120px;
+}
+
 .container .img-fluid {
 	clear: left;
 	background-image: url(../image/arh1.png);
@@ -10289,4 +10293,6 @@ a.text-dark:hover, a.text-dark:focus {
 .02 {
 }
 .03 {
+}
+.001 {
 }
